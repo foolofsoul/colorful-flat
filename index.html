@@ -4,169 +4,209 @@
   <meta charset="utf-8">
   <meta name="author" content="Joshua Larks">
   <meta name="description" content="Metro App replicate from Codify's week 2 homework">
-  <title>Metro App Replicate</title>
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Colorful Flat</title>
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC|Mukta+Vaani:400,500,700,800" rel="stylesheet">
 </head>
 <body>
   <!--****************   HEADER   ****************-->
-  <header>
-    <div class="logo">
-     <i class="fa fa-heart"></i>
-     <h1 class="logo-title">COLORFUL FLAT</h1>
-     <nav class="main-nav">
-       <a href="#">Home</a>
-       <a href="#">Services</a>
-       <a href="#" class="is-active">Portfolio</a>
-       <a href="#">Blog</a>
-       <a href="#">Contact</a>
-     </nav>
+  <header id="main-header">
+    <div class="wrapper wrapper-header">
+      <div class="navigation">
+        <a href="#" class="logo">
+         <i class="fa fa-heart"></i>
+         <h1 class="logo-title">COLORFUL FLAT</h1>
+        </a>
+         <nav class="main-nav">
+           <a href="#">Home</a>
+           <a href="#features">Services</a>
+           <a href="#recent-work" class="is-active">Portfolio</a>
+           <a href="#posts">Blog</a>
+           <a href="#contact">Contact</a>
+         </nav>
+      </div>
+
+       <div class="hero clearfix">
+         <h2>THIS TEMPLATE<br>IS AWESOME!</h2>
+         <img src="img/hero-img.png" alt="We create awesome templates to use right on your computer." class="hero-img">
+         <div class="hero-nav">
+           <a href="#"></a>
+           <a href="#"></a>
+           <a href="#"></a>
+         </div>
+       </div>
     </div>
   </header><!-- END HEADER -->
 
   <!--****************   FEATURES   ****************-->
   <section id="features">
-    <ul class="feature-list">
-      <li class="feature-item">
-        <img src="" alt="">
-        <h2>Flat Design</h2>
-        <p>Nulla facilisi. In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla tincidunt. </p>
-       </li>
-      <li class="feature-item">
-        <img src="" alt="">
-        <h2>Great Ideas</h2>
-        <p>Nulla facilisi. In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla tincidunt.</p>
-      </li>
-      <li class="feature-item">
-        <img src="" alt="">
-        <h2>Browser Compatibility</h2>
-        <p>Nulla facilisi. In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla tincidunt.</p>
-      </li>
-    </ul>
+    <div class="wrapper">
+      <ul class="feature-list">
+        <li class="feature-item">
+          <img src="img/paint.png" alt="">
+          <h2>Flat Design</h2>
+          <p>In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla. </p>
+         </li><!-- 
+         --><li class="feature-item">
+          <img src="img/space-ship.png" alt="">
+          <h2>Great Ideas</h2>
+          <p>In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla.</p>
+        </li><!-- 
+         --><li class="feature-item">
+          <img src="img/phone.png" alt="">
+          <h2>Browser Compatibility</h2>
+          <p>In vestibulum eleifend suscipit. Proin tristique nunc at sapien gravida gravida. Donec condimentum justo vitae lectus blandit molestie porta nulla.</p>
+        </li>
+      </ul>
+    </div>
   </section><!-- END FEATURES -->
 
-  <!--****************   RECENT WORKS   ****************-->
+  <!--****************   RECENT WORK   ****************-->
   <section id="recent-work">
-    <h1>RECENT WORKS</h1>
-    <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
-    
-    <div class="work-filter">
-      <a href="#">ALL</a>
-      <a href="#">WEB</a>
-      <a href="#">MOBILE</a>
-      <a href="#">PHOTOGRAPHY</a>
-      <a href="#">DESIGN</a>
-      <a href="#">TYPE</a>
+    <div class="wrapper">
+      <header class="section-header">
+        <h1>RECENT WORKS</h1>
+        <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
+      </header>
+      
+      <div class="work-filter">
+        <a href="#" class="is-active">ALL</a>
+        <a href="#" class="is-hovered">WEB</a>
+        <a href="#">MOBILE</a>
+        <a href="#">PHOTOGRAPHY</a>
+        <a href="#">DESIGN</a>
+        <a href="#">TYPE</a>
+      </div>
+      
+      <div class="works-row">
+        <a href="#">
+          <img src="img/fd-1.jpg" alt="Image Title">
+        </a><!-- 
+        --><a href="#">
+          <img src="img/fd-2.jpg" alt="Image Title">
+        </a><!--
+        --><a href="#">
+          <img src="img/fd-3.jpg" alt="Image Title">
+        </a>
+      </div>
+      <div class="works-row">
+        <a href="#">
+          <img src="img/fd-4.jpg" alt="Image Title">
+        </a><!--
+        --><a href="#">
+          <img src="img/fd-5.jpg" alt="Image Title">
+        </a><!--
+        --><a href="#">
+          <img src="img/fd-6.jpg" alt="Image Title">
+        </a>
+      </div>
+      
+      <button class="show-more-work">SHOW MORE</button>
     </div>
-
-    <div class="works">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
-
-    <button class="show-more">SHOW MORE</button>
-  </section><!-- END RECENT WORKS -->
+  </section><!-- END RECENT WORK -->
 
   <!--****************   TEMPLATES   ****************-->
-  <section id="templates">
-    <div class="template-design template-top">
-      <img src="" alt="">
-      <h3>Layered Neatly Photoshop Template</h3>
-      <p>Phasellus faucibus placerat luctus. Mauris ut est lorem. Morbi pretium varius aliquam. Quisque tortor turpis, sodales et porta eu, malesuada a massa. Donec mauris arcu, vestibulum ac hendrerit ut, convallis cursus libero.</p>
-      <button class="show-more-top">SHOW MORE</button>
-    </div>
-    <div class="template-design template-bottom">
-      <img src="" alt="">
-      <h3>Layered Neatly Photoshop Template</h3>
-      <p>Phasellus faucibus placerat luctus. Mauris ut est lorem. Morbi pretium varius aliquam. Quisque tortor turpis, sodales et porta eu, malesuada a massa. Donec mauris arcu, vestibulum ac hendrerit ut, convallis cursus libero.</p>
-      <button class="show-more-bottom">SHOW MORE</button>
+  <section id="templates" class="clearfix">
+    <div class="wrapper">
+      <div class="template-design template-top clearfix">
+        <img src="img/template-img.png" alt="">
+        <h3>Layered Neatly Photoshop Template</h3>
+        <p>Phasellus faucibus placerat luctus. Mauris ut est lorem. Morbi pretium varius aliquam. Quisque tortor turpis, sodales et porta eu, malesuada a massa. Donec mauris arcu, vestibulum ac hendrerit ut, convallis cursus libero. Nulla eget erat ac massa suscipit suscipit. Vivamus tempus vehicula facilisis. Ut consectetur ullamcorper purus a rutrum.</p>
+        <button class="show-more-top">SHOW MORE</button>
+      </div>
+      <div class="template-design template-bottom clearfix">
+        <img src="img/template-img.png" alt="">
+        <h3>Layered Neatly Photoshop Template</h3>
+        <p>Phasellus faucibus placerat luctus. Mauris ut est lorem. Morbi pretium varius aliquam. Quisque tortor turpis, sodales et porta eu, malesuada a massa. Donec mauris arcu, vestibulum ac hendrerit ut, convallis cursus libero. Nulla eget erat ac massa suscipit suscipit. Vivamus tempus vehicula facilisis. Ut consectetur ullamcorper purus a rutrum.</p>
+        <button class="show-more-bottom">SHOW MORE</button>
+      </div>
     </div>
   </section><!-- END TEMPLATES -->
 
   <!--****************   OUR TEAM   ****************-->
   <section id="our-team">
-    <h1>MEET OUR TEAM</h1>
-    <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
-    <div class="team">
-      <div class="team-member">
-        <img src="" alt="">
-        <div class="member-info">
-          <h2>JOHN SMITH</h2>
-          <h3>Creative Director</h3>
-          <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
-          <ul class="member-social">
-            <li class="facebook">
-              <a href="#">
-                <i class="fa fa-facebook fa-2x"></i>
-              </a>
-            </li>
-            <li class="twitter">
-              <a href="#">
-                <i class="fa fa-twitter fa-2x"></i>
-              </a>
-            </li>
-            <li class="pinterest">
-              <a href="#">
-                <i class="fa fa-pinterest fa-2x"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="" alt="">
-        <div class="member-info">
-          <h2>JOHN SMITH</h2>
-          <h3>Creative Director</h3>
-          <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
-          <ul class="member-social">
-            <li class="facebook">
-              <a href="#">
-                <i class="fa fa-facebook fa-2x"></i>
-              </a>
-            </li>
-            <li class="twitter">
-              <a href="#">
-                <i class="fa fa-twitter fa-2x"></i>
-              </a>
-            </li>
-            <li class="pinterest">
-              <a href="#">
-                <i class="fa fa-pinterest fa-2x"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="" alt="">
-        <div class="member-info">
-          <h2>JOHN SMITH</h2>
-          <h3>Creative Director</h3>
-          <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
-          <ul class="member-social">
-            <li class="facebook">
-              <a href="#">
-                <i class="fa fa-facebook fa-2x"></i>
-              </a>
-            </li>
-            <li class="twitter">
-              <a href="#">
-                <i class="fa fa-twitter fa-2x"></i>
-              </a>
-            </li>
-            <li class="pinterest">
-              <a href="#">
-                <i class="fa fa-pinterest fa-2x"></i>
-              </a>
-            </li>
-          </ul>
+    <div class="wrapper">
+      <header class="section-header">
+        <h1>MEET OUR TEAM</h1>
+        <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
+      </header>
+      <div class="team">
+        <div class="team-member">
+          <i class="fa fa-user fa-4x"></i>
+          <div class="member-info">
+            <h2>JOHN SMITH</h2>
+            <h3>Creative Director</h3>
+            <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
+            <ul class="member-social">
+              <li class="facebook">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="pinterest">
+                <a href="#">
+                  <i class="fa fa-pinterest-p fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- 
+         --><div class="team-member">
+          <i class="fa fa-user fa-4x"></i>
+          <div class="member-info">
+            <h2>JOHN SMITH</h2>
+            <h3>Creative Director</h3>
+            <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
+            <ul class="member-social">
+              <li class="facebook">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="pinterest">
+                <a href="#">
+                  <i class="fa fa-pinterest-p fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- 
+         --><div class="team-member">
+          <i class="fa fa-user fa-4x"></i>
+          <div class="member-info">
+            <h2>JOHN SMITH</h2>
+            <h3>Creative Director</h3>
+            <p>Proin posuere gravida ipsum, a pretium augue commodo eget. Aenean dictum vulputate porta.</p>
+            <ul class="member-social">
+              <li class="facebook">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="pinterest">
+                <a href="#">
+                  <i class="fa fa-pinterest-p fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -174,58 +214,69 @@
 
   <!--****************   RECENT POSTS   ****************-->
   <section id="posts">
-    <h1>RECENT POSTS</h1>
-    <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
-    <div class="posts-group">
-      <div class="post">
-        <img src="" alt="">
-        <div class="post-info">
-          <h2 class="post-title">Really Interesting Post</h2>
-          <p class="date">October 27</p>
-          <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. Curabitur imperdiet consequat hendrerit.</p>
+    <div class="wrapper">
+      <header class="section-header">
+        <h1>RECENT POSTS</h1>
+        <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
+      </header>
+      <div class="posts-group">
+        <div class="post">
+          <i class="fa fa-picture-o fa-4x"></i>
+          <div class="post-info">
+            <h2 class="post-title">Really Interesting Post</h2>
+            <p class="date">October 27</p>
+            <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas.</p>
+          </div>
+        </div><!-- 
+         --><div class="post">
+          <i class="fa fa-picture-o fa-4x"></i>
+          <div class="post-info">
+            <h2 class="post-title">Really Interesting Post</h2>
+            <p class="date">October 27</p>
+            <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas.</p>
+          </div>
+        </div><!-- 
+         --><div class="post">
+          <i class="fa fa-picture-o fa-4x"></i>
+          <div class="post-info">
+            <h2 class="post-title">Really Interesting Post</h2>
+            <p class="date">October 27</p>
+            <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas.</p>
+          </div>
         </div>
       </div>
-      <div class="post">
-        <img src="" alt="">
-        <div class="post-info">
-          <h2 class="post-title">Really Interesting Post</h2>
-          <p class="date">October 27</p>
-          <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. Curabitur imperdiet consequat hendrerit.</p>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="">
-        <div class="post-info">
-          <h2 class="post-title">Really Interesting Post</h2>
-          <p class="date">October 27</p>
-          <p>Mauris viverra orci at ligula tincidunt non aliquet mi aliquet. Curabitur nec congue erat. Integer bibendum auctor ante at egestas. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. Curabitur imperdiet consequat hendrerit.</p>
-        </div>
-      </div>
+
+      <button class="show-more-posts">SHOW MORE</button>
     </div>
   </section><!-- END RECENT POSTS -->
 
   <!--****************   CONTACT US   ****************-->
   <section id="contact">
-    <h1>CONTACT US</h1>
-    <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
-    <form action="" class="contact-form">
-      <fieldset><input type="text" text="" placeholder="Name"></fieldset>
-      <fieldset></fieldset>
-      <input type="text" email="" placeholder="Email">
-      <fieldset><textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea></fieldset>
-      <button class="show-more-contact">SHOW MORE</button>
-    </form>
+    <div class="wrapper">
+      <header class="section-header">
+        <h1>CONTACT US</h1>
+        <p>Etiam venenatis, neque ornare elementum vehicula, lorem nisi tempor ipsum, non mattis urna orci vel ligula. Morbi vel nibh et arcu pretium adipiscing.</p>
+      </header>
+      <form class="contact-form">
+        <fieldset><input type="text" text="" placeholder="Name:"></fieldset>
+        <fieldset><input type="text" email="" placeholder="Email:"></fieldset>
+        <fieldset><textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea></fieldset>
+        <button class="show-more-contact">SHOW MORE</button>
+      </form>
+    </div>
   </section><!-- END CONTACT US -->
 
   <!--****************   FOOTER   ****************-->
-  <foooter>
-    <ul class="social-footer">
-      <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-slack fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-html5 fa-2x"></i></a></li>
-      <p class="copy"><span class="highlight">Bloom Web Design</span> Copyright &copy;2016. | Powered by <span class="highlight">Wordpress</span></p>
-    </ul>
-  </foooter><!-- END FOOTER -->
+  <footer>
+    <div class="wrapper clearfix">
+      <ul class="social-footer">
+        <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="#"><i class="fa fa-slack fa-2x"></i></a></li>
+        <li><a href="#"><i class="fa fa-html5 fa-2x"></i></a></li>
+      </ul>
+        <p class="copy"><span class="highlight">Reflective Web Design</span> Copyright &copy;2016. | Powered by <span class="highlight">Joshua Larks</span></p>
+    </div>
+  </footer><!-- END FOOTER -->
 </body>
 </html>

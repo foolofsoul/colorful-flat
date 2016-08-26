@@ -4,7 +4,538 @@
 
 body {
   margin: 0;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Holtwood One SC", "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: normal;
+}
+
+button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 40%;
+  margin: 0 auto 50px;
+}
+
+.section-header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.section-header p {
+  margin: 0;
+}
+
+/****************   HEADER   ****************/
+#main-header {
+  padding-bottom: 20px;
+  background-color: #25B7D3;
+}
+
+.navigation {
+  position: relative;
+  height: 100px;
+}
+
+.logo,
+.main-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo { 
+  float: left;
+  display: block;
+  color: #333;
+}
+
+.logo i {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.logo-title {
+  margin: 0;
+  display: inline-block;
+}
+
+.main-nav {
+  right: 0;
+  display: block;
+  float: right;
+}
+
+.main-nav a {
+  margin-left: 10px;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.main-nav a:hover,
+.main-nav .is-active {
+  border-radius: 8px;
+  color: #25b7d3;
+  background-color: #333;
+}
+
+.main-nav a:first-child {
+  margin-left: 0;
+}
+
+.hero {
+  position: relative;
+  clear: both;
+  padding-top: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.hero h2 {
+  float: left;
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.hero-img {
+  width: 350px;
+  float: right;
+}
+
+.hero-nav {
+  clear: both;
+  padding-top: 30px;
+}
+
+.hero-nav a {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.hero-nav a:hover {
+  background-color: #fff;
 }
 
 
-/****************   CSS COMMENT   ****************/
+/****************   FEATUERS   ****************/
+#features {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.feature-item {
+  display: inline-block;
+  width: 26%;
+  margin-right: 3.66%;
+  margin-left: 3.66%;
+}
+
+.feature-item img {
+  width: 200px;
+}
+
+.feature-item h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.feature-item p {
+  margin-top: 0;
+}
+
+
+/****************   RECENT WORK   ****************/
+#recent-work {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #6AC490;
+}
+
+.work-filter {
+  margin-bottom: 60px;
+}
+
+.work-filter a {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.work-filter a:hover,
+.work-filter .is-hovered {
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.work-filter a:active,
+.work-filter .is-active {
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #6ac490;
+  background-color: #fff;
+}
+
+.works-row a {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.works-row a:first-child {
+  margin-left: 0;
+}
+
+.works-row a:last-child {
+  margin-right: 0;
+}
+
+.works-row img {
+  width: 100%;
+}
+
+.works-row + .works-row {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.show-more-work {
+  color: #6ac490;
+  background-color: #fff;
+}
+
+
+/****************   TEMPLATES   ****************/
+#templates {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F1F1F1;
+}
+
+.template-top {
+  clear: both;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #bbb;
+}
+
+.template-bottom {
+  clear: both;
+  padding-top: 40px;
+}
+
+.template-top img {
+  float: left;
+  margin-right: 60px;
+}
+
+.template-bottom img {
+  float: right;
+  margin-left: 60px;
+}
+
+.template-design {
+  text-align: left;
+}
+
+.template-design img {
+  width: 250px;
+}
+
+.template-design h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.template-design p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 1.25;
+}
+
+.show-more-top,
+.show-more-bottom {
+  color: #fff;
+}
+
+.show-more-top {
+  background-color: #6ac490;
+}
+
+.show-more-bottom {
+  background-color: #9ED2DB;
+}
+
+
+/****************   OUR TEAM   ****************/
+#our-team {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #DFB6C7;
+}
+
+#our-team header,
+#out-team h1 {
+  color: #fff;
+}
+
+.team-member {
+  display: inline-block;
+  width: 26%;
+  margin-left: 3.66%;
+  margin-right: 3.66%;
+  background-color: #ddd;
+}
+
+.fa-user {
+  color: #aaa;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.member-info {
+  padding: 20px 20px 30px;
+  background-color: #fff;
+}
+
+.member-info h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.member-info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.member-info p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.member-social {
+}
+
+.member-social li {
+  display: inline-block;
+}
+
+.member-social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-top: 10px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.member-social .facebook a {
+  background-color: #283F9F;
+}
+
+.member-social .twitter a {
+  background-color: #2FA8EF;
+}
+
+.member-social .pinterest a {
+  background-color: #B01E3C;
+}
+
+
+/****************   RECENT POSTS   ****************/
+#posts {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #B4D4DF;
+}
+
+#posts .section-header {
+  color: #fff;
+}
+
+.post {
+  display: inline-block;
+  width: 26%;
+  margin-left: 3.66%;
+  margin-right: 3.66%;
+  margin-bottom: 60px;
+  background-color: #ddd;
+}
+
+.fa-picture-o {
+  color: #aaa;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.post-info {
+  padding: 20px 30px 30px;
+  background-color: #fff;
+}
+
+.post-info h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.post-info .date {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.show-more-posts {
+  color: #b4d4df;
+  background-color: #fff;
+}
+
+
+/****************   CONTACT US   ****************/
+#contact,
+footer {
+  background-color: #3c3c3c;
+}
+
+#contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+fieldset {
+  border: 0;
+}
+
+input,
+textarea {
+  width: 45%;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Mukta Vaani", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  margin-top: 30px;
+  color: #333;
+  background-color: #fff;
+}
+
+
+/****************   FOOTER   ****************/
+footer .wrapper {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid  #333;
+}
+
+.social-footer {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-footer a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 25px;
+  color: #3c3c3c;
+  background-color: #555;
+}
+
+.copy {
+  float: right;
+  color: #aaa;
+}
+
+.highlight {
+  color: #cab782;
+}
